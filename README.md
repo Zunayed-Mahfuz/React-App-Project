@@ -199,8 +199,6 @@ When you experience issues with your code, once again, you will need to use the 
 - [GitHub Docs: Create A New Repo](https://help.github.com/articles/create-a-repo/)
 - [React Router Training Docs](https://reacttraining.com/react-router/)
 
-## Sample Projects & Their Readme's
-
 <br>
 
 # RECOMMENDATIONS
