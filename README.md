@@ -191,8 +191,8 @@ When you experience issues with your code, once again, you will need to use the 
 
 ## Templates
 
-- Project 1 ReadMe Template _(Coming Soon)_
-- Project Issue Ticket Template _(Coming Soon)_
+- [Project ReadMe Template](https://github.com/mishakessler/class-resource-template/blob/master/templates/Template_Project-README.md)
+- [Project Issue Ticket Template](https://github.com/mishakessler/class-resource-template/blob/master/templates/Template_Project-Issue-Ticket.md)
 
 ## Relevant Guides
 
@@ -219,4 +219,4 @@ _(From previous survivors of project week.)_
 
 # PLAGIARISM
 
-Remember. We have a **zero tolerance policy** towards plagiarism. More on our plagiarism policy can be found in our course wiki's [plagiarism page](https://git.generalassemb.ly/sei-nyc-cheetahs/project-2).
+Remember. We have a **zero tolerance policy** towards plagiarism. More on our plagiarism policy can be found in our course wiki's [plagiarism page](https://github.com/mishakessler/class-resource-template/blob/master/guidelines/Guidelines_Plagiarism.md).
