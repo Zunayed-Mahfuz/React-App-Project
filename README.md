@@ -184,7 +184,7 @@ When you experience issues with your code, once again, you will need to use the 
 - Rick and Morty: https://rickandmortyapi.com/documentation/#rest
 - Word API: https://www.wordsapi.com/
 
-- For more comprehensive lists, check:
+- For comprehensive lists of Public APIs, check the following. (PLEASE NOTE, we do not maintain, review, or recommended all of these APIs. These lists are simply of all publicly available APIs and are maintained by third parties. It's your responsibility to make sure the API fits the project requirements.)
   - https://github.com/toddmotto/public-apis
   - https://github.com/abhishekbanthia/Public-APIs
   - https://rapidapi.com/
