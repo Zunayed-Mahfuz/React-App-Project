@@ -2,9 +2,9 @@
 
 # Required fields: unit, section and type
 
-unit: misc
+unit: 2
 
-
+section react-misc
 
 type: lesson
 
