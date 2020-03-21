@@ -2,11 +2,11 @@
 
 # Required fields: unit, section and type
 
-unit: (unit here)
+unit: 2
 
-section: (section here)
+section react-misc
 
-type: (type here)
+type: lesson
 
 
 # optional fields:
@@ -14,4 +14,3 @@ type: (type here)
   # prereqs
   # orderingID
   # ...and maybe more! https://git.generalassemb.ly/sei-nyc/start-here/blob/master/info_schema.md:
-  
