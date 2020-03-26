@@ -2,7 +2,7 @@
 
 # PROJECT 2: Your React App
 
-Congratulations everyone! You're nearly done with Unit 2, which means you've conquered the basics of HTML, CSS, and Javascript, and now we get to kick it up a notch with modular and modern front-end applications using the React framework!
+Congratulations! You're nearly done with Unit 2, which means you've conquered the basics of HTML, CSS, and Javascript, and now we get to kick it up a notch with modular and modern front-end applications using the React framework.
 
 As with P1, the Unit 2 Project is a chance to be creative and build something you can be proud of. You will be working individually on this project, but don't worry– we know stateful versus stateless can be very confusing at first, but that doesn't mean you'll be _persona non grata_ for this project. We'll be helping you out along the way.
 
