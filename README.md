@@ -10,9 +10,26 @@ Remember to have fun and _read all the directions before you start_!
 
 <br>
 
+- [PROJECT 2 OVERVIEW](#PROJECT-2-Your-React-App)
+  - [The MVP Requirements](#The-MVP-Requirements)
+  - [The Post-MVP](#The-Post-MVP)
+  - [The Presentation](#The-Presentation)
+- [GETTING STARTED](#GETTING-STARTED)
+  - [STEP 1. Remember to Read All Directions BEFORE You Start](#STEP-1-Remember-to-Read-All-Directions-BEFORE-You-Start)
+  - [STEP 2. Make A New Repo](#STEP-2-Make-A-New-Repo)
+  - [STEP 3. Research and Choose Your API](#STEP-3-Research-and-Choose-Your-API)
+  - [STEP 4. Wireframe Your App](#STEP-4-Wireframe-Your-App)
+  - [STEP 5. Pitch Your Project Idea](#STEP-5-Pitch-Your-Project-Idea)
+  - [STEP 6. Get Hacking](#STEP-6-Get-Hacking)
+- [RESOURCES](#MOAR-RESOURCES)
+- [RECOMMENDATIONS](#RECOMMENDATIONS)
+- [PLAGIARISM](#PLAGIARISM)
+
+<br>
+
 ## The MVP Requirements
 
-**In order to pass, these are ALL required.** Please note, we will be less willing to make compromises here. By project 2, you're well on your way to becoming **real** devs, and attention to detail, consistency, and using convention in your code is important.
+**In order to pass, ALL MVP requirements must be met.** Please note, we will be less willing to make compromises here. By Project 2, you're well on your way to becoming **real** devs; attention to detail, consistency, and using conventions in your code is important.
 
 ### Planning
 
@@ -30,7 +47,7 @@ Remember to have fun and _read all the directions before you start_!
 
 ### Styling
 
-- Be styled with CSS.
+- Be styled with CSS, either using global style sheets or styled components.
 - Use flexbox (`display: flex`) or CSS Grid.
 - Implement responsive design on 3 screen sizes (including desktop) using 2 media queries (tablet and mobile).
   
@@ -44,11 +61,18 @@ Remember to have fun and _read all the directions before you start_!
 
 ### Deployment
 
-- Deployed via GitHub & on Surge.
+- Deployed via Surge or Netlify.
 
 ### Procedural
 
-- Have GitHub commits (documenting good progress) **every day**.
+- Commit early and often! Have GitHub commits (documenting substantial progress) **every day**.
+
+### DEALER'S CHOICE
+
+The final MVP requirement is up to you. You must choose **either**:
+
+- Utilize Storybook to create at least 5 reusable components, which are then used in your project; OR
+- Utilize Jest to create at least 15 tests, which are then used in your project.
 
 <br>
 
@@ -71,7 +95,7 @@ Finally, to get you familiar with presenting your work to audiences, the last re
 
 # GETTING STARTED
 
-##  STEP 1. Remember to Read All Directions BEFORE You Start
+## STEP 1. Remember to Read All Directions BEFORE You Start
 
 _We'll know if you don't._
 
@@ -95,8 +119,8 @@ You will start by creating your project repository on your **personal** GitHub. 
 
 You have the freedom to choose an API that aligns with your interests or goals, but remember our requirements from P1.
 
-  * Use an API that is public, free, and– if an API key is required– that accepts that key in the URL or header. If it requires membership, granted access, payment, or OAuth, it will likely take too much time to gain access to the data, both to get your keys and to program the requests.
-  * Second, you must prove you can retrieve and consume data at project pitch time to be approved. **If you cannot do this, we will tell you to find another API.**
+* Use an API that is public, free, and– if an API key is required– that accepts that key in the URL or header. If it requires membership, granted access, payment, or OAuth, it will likely take too much time to gain access to the data, both to get your keys and to program the requests.
+* Second, you must prove you can retrieve and consume data at project pitch time to be approved. **If you cannot do this, we will tell you to find another API.**
 
 <br>
 
@@ -110,7 +134,7 @@ You have the freedom to choose an API that aligns with your interests or goals, 
 
 As you saw for P1, there are _literally_ hundreds, if not thousands, of APIs that have been tested, used and abused by previous students. Start with those lists and it'll make your life easier. 
 
-Refer to the Resources section below for suggestions and lists of available APIs; if you find one not on this list that you'd like to use, feel free, just remember the above requirements.
+Refer to the Resources section below for suggestions and lists of available APIs; if you find one not on this list that you'd like to use, feel free, just remember the above requirements. (Did you read this far? If so, we've been sneaky and want you to complete a challenge for us: Make the very first thing in your Project ReadMe for your Pitch a space-themed GIF image. Don't tell your classmates.)
 
 <br>
 
@@ -120,7 +144,7 @@ You can make your wireframes as lo-fi and hand-drawn, or as hi-res and computer-
 
 <br>
 
-##  STEP 5. Pitch Your Project Idea
+## STEP 5. Pitch Your Project Idea
 
 Before you start coding away, you must meet with an instructor to get your ideas approved. We will have 8 minute pitches in which you'll present your ideas. **You must have your ideas prepared and written up in a ReadMe file, including all of the following items, to get approved.**
 
@@ -135,7 +159,7 @@ Before you start coding away, you must meet with an instructor to get your ideas
    
 > Optionally, include a final section, your `Code Showcase`. Put snippets you're proud of here, and let your viewers know when you've written brag-worthy code!
 
-> For putting wireframes in your ReadMe, we recommend uploading to Imgur, then linking the file directly into your markdown using the `!(imageAlt)[imageURL]` format. The imageURL must be a direct link ending with the file format, such as `.png`.
+> For putting wireframes in your ReadMe, we recommend uploading to Imgur, then linking the file directly into your markdown using the `![imageAlt](imageURL)` format. The imageURL must be a direct link ending with the file format, such as `.png`.
 
 <br>
 
@@ -147,9 +171,7 @@ Before you start coding away, you must meet with an instructor to get your ideas
 
 <br>
 
-##  STEP 6. Get Hacking
-
-Did you read this far?! If so, we're getting sneaky and hiding these before the end of the repo. So do us a favor: Make the very first thing in your Project **Pitch** ReadMe a funny/happy/cute gif of cheetahs.
+## STEP 6. Get Hacking
 
 ### Remember what project week looks like?
 
@@ -159,17 +181,34 @@ All students will be grouped into a Squad. Every morning and evening, squads wil
 2. What will you work on?
 3. What's something you expect will block your progress?
 
-After this, we'll go around the squad once more, indicating what "percent MVP" you are at with your project.
+After this, we'll go around the squad once more, indicating what "percent MVP" you are at with your project. Remember, the purpose of these check-ins is **not** to discuss technical questions, but to answer questions about workflow and get a status check-in.
+
+### Getting Unstuck
+
+Remember, two things:
+
+1. Don't hesitate to write messy code to solve short-term problems; you can always refactor later!
+2. Read the documentation for whatever technologies you use! The docs often include a tutorial that can help you get started, and learning to read documentation is crucial to your success as a developer.
 
 ### Getting Support
 
-When you experience issues with your code, once again, you will need to use the GitHub Issues tab. The Issue Ticket templates help you observe, research, and attempt to resolve your issue. If there's still no resolution, submit and slack the issue ticket your squad leader to reserve time to troubleshoot together.
+Each student will be given 5 (five) tokens, redeemable at any time during regular class time (subject to instructors' schedules), for 20 minutes. **Tokens cannot be transferred between students - there is no black market for tokens.**
+
+Instructors will not be holding open office hours during project week. This is to give you the opportunity to solve issues and errors you run in to on your own and with your classmates. Shay, however, will still hold his hours as planned.
+
+#### Maximizing Effectiveness of Support Sessions
+
+Prior to using one of your tokens, we **strongly** recommend that you file an issue ticket on your project's git repository to both provide the instructor with a point of reference regarding your code and the issue you are having. This will enable us to give you more effective guidance.
+
+When you submit an issue ticket, you must use the issue ticket template and include all sections.  
+
+(We also strongly recommend using Slack to get help from your classmates. Chances are you all will be running into similar problems!)
 
 <br>
 
-# MOAR RESOURCES
+## MOAR RESOURCES
 
-## Some Available APIs
+### Some Available APIs
 
 - Star Wars: https://swapi.co/
 - Weather: https://openweathermap.org/api
@@ -189,21 +228,20 @@ When you experience issues with your code, once again, you will need to use the 
   - https://github.com/abhishekbanthia/Public-APIs
   - https://rapidapi.com/
 
-## Templates
+### Templates
 
-- [Project ReadMe Template](https://github.com/mishakessler/course-template/blob/master/templates/Template_Project-README.md)
-- [Project Issue Ticket Template](https://github.com/mishakessler/course-template/blob/master/templates/Template_Project-Issue-Ticket.md)
+- [Project ReadMe Template](https://github.com/mishakessler/course-template/blob/master/projects/template_frontend-README.md)
+- [Project Issue Ticket Template](https://github.com/mishakessler/course-template/blob/master/projects/template_issue-tickets.md)
 
-## Relevant Guides
+### Relevant Guides
 
-- [GitHub Docs: Create A New Repo](https://help.github.com/articles/create-a-repo/)
 - [React Router Training Docs](https://reacttraining.com/react-router/)
 
 <br>
 
-# RECOMMENDATIONS
+## RECOMMENDATIONS
 
-_(From previous survivors of project week.)_
+_(From previous survivors of project weeks.)_
 
 > "This is a nice chance to make a portfolio piece, but you don't expect perfection. After graduating the SEI, no matter how great your project is now, you will want to return to it to improve and polish, before recruiters and potential employers see it."
 
@@ -215,6 +253,61 @@ _(From previous survivors of project week.)_
 
 > "Don’t try too hard. Really. Do something that’s achievable and put cool graphics and styling on it."
 
-# PLAGIARISM
+<br>
+
+## EVALUATION
+
+Your instructors will evaluate your project and determine if it is complete or
+incomplete. We use the following rubric for our evaluation, but ultimately it is
+up to your instructors as to whether your project is complete or incomplete.
+
+We will evaluate your project according to the following criteria:
+
+- **Code Quality:** Is the code well formatted? Are variable and function names
+  semantic and sensible? Is the code easy to read and understand?
+- **Technical Requirements:** How does the project stack up to the requirements
+  for this project? Is the developer making use of the material we've covered in
+  a way that makes sense?
+- **Creativity & Interface:** Is the application easy to navigate? Does it work
+  well in every major browser? Is it responsive? Does it incorporate modern UI
+  Themes?
+- **Functionality:** Does the application work without errors or bugs? Does it
+  present a complete app, where every feature is fully implemented in a way that
+  makes sense?
+- **Presentation:** Is there adequate documentation? Is the repository well
+  organized and free of clutter?
+
+### Scoring
+
+Each of the above categories will be scored according to the following:
+
+| Score | Description |
+| ----- | ----------- |
+| 0     | Incomplete  |
+| 1     | Progressing |
+| 2     | Performing  |
+| 3     | Excelling   |
+
+For a project to be considered complete, you must achieve at least "Progressing"
+in each category. However, at a minimum, you should aim to achieve "Performing"
+in every category.
+
+### Hard Requirements
+
+The following requirements **_must_** be met in order for the project to be
+considered complete:
+
+- The project is deployed to GitHub Pages or a custom domain
+- The application renders in the browser and runs without errors
+- The repo has a README that adequately documents the project
+
+### Incomplete Projects
+
+Incomplete projects will be giving a 1 week extension. **Note that you are
+allowed one extension on only one of the four projects.**
+
+<br>
+
+## PLAGIARISM
 
 Remember. We have a **zero tolerance policy** towards plagiarism. More on our plagiarism policy can be found in our course wiki's [plagiarism page](https://github.com/mishakessler/course-template/blob/master/guidelines/Guidelines_Plagiarism.md).
