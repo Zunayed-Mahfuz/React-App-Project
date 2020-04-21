@@ -1,41 +1,60 @@
 ![](https://ga-dash.s3.amazonaws.com/production/assets/logo-9f88ae6c9c3871690e33280fcf557f33.png) 
 
-# PROJECT 2: Your React App
+# PROJECT 2: Your Front End React App <!-- omit in toc -->
+
+<p align="center">
+  <img src="https://thumbs.gfycat.com/BestMeagerHoki-small.gif" width="80%"/>
+</p>
 
 Congratulations! You're nearly done with Unit 2, which means you've conquered the basics of HTML, CSS, and Javascript, and now we get to kick it up a notch with modular and modern front-end applications using the React framework.
 
-As with P1, the Unit 2 Project is a chance to be creative and build something you can be proud of. You will be working individually on this project, but don't worry– we know stateful versus stateless can be very confusing at first, but that doesn't mean you'll be _persona non grata_ for this project. We'll be helping you out along the way.
+As with P1, the Unit 2 Project is a chance to be creative and build something you can be proud of. You will be working individually on this project, but don't worry– we know stateful versus stateless can be very confusing at first, but don't worry. We'll be helping you out along the way.
 
 Remember to have fun and _read all the directions before you start_!
 
 <br>
 
-- [PROJECT 2 OVERVIEW](#PROJECT-2-Your-React-App)
-  - [The MVP Requirements](#The-MVP-Requirements)
-  - [The Post-MVP](#The-Post-MVP)
+## Table of Contents
+
+- [OVERVIEW](#OVERVIEW)
+  - [MVP Requirements](#MVP-Requirements)
+  - [Post-MVP Ideas](#Post-MVP-Ideas)
   - [The Presentation](#The-Presentation)
 - [GETTING STARTED](#GETTING-STARTED)
-  - [STEP 1. Remember to Read All Directions BEFORE You Start](#STEP-1-Remember-to-Read-All-Directions-BEFORE-You-Start)
+  - [STEP 1. Read All Directions Before You Start](#STEP-1-Read-All-Directions-Before-You-Start)
   - [STEP 2. Make A New Repo](#STEP-2-Make-A-New-Repo)
   - [STEP 3. Research and Choose Your API](#STEP-3-Research-and-Choose-Your-API)
   - [STEP 4. Wireframe Your App](#STEP-4-Wireframe-Your-App)
   - [STEP 5. Pitch Your Project Idea](#STEP-5-Pitch-Your-Project-Idea)
   - [STEP 6. Get Hacking](#STEP-6-Get-Hacking)
-- [RESOURCES](#MOAR-RESOURCES)
+  - [RESOURCES](#RESOURCES)
 - [RECOMMENDATIONS](#RECOMMENDATIONS)
+- [EVALUATION](#EVALUATION)
 - [PLAGIARISM](#PLAGIARISM)
 
 <br>
 
-## The MVP Requirements
+# OVERVIEW
 
-**In order to pass, ALL MVP requirements must be met.** Please note, we will be less willing to make compromises here. By Project 2, you're well on your way to becoming **real** devs; attention to detail, consistency, and using conventions in your code is important.
+> **Pitches Due:** 4/13/20 at 9:00 AM
+>
+> **Deployed MVP Due:** 4/17/20 at 2:00 PM
+> 
+> **Presentations:** 4/20/20 at 3:00 PM
+>
+> **Starter Code:** No starter code provided.
 
-### Planning
+## MVP Requirements
+
+**In order to pass, ALL MVP requirements must be met.**
+
+This project, like the prior, will be a portfolio piece. For a portfolio piece to be complete, it **must** demonstrate an understanding of- and an ability to use- the tools and techniques introduced in this unit; it should be functional with sufficient complexity, meeting the following requirements:
+
+### Planning <!-- omit in toc -->
 
 - Have a **thoroughly** developed `README.md` file. (Refer below to _"Step 5: Pitch Your Project Idea"_ for more.)
 
-### React
+### React <!-- omit in toc -->
 
 - Be a working, interactice React app, built using `create react app`.
 - Utilize React Router, installed via NPM. 
@@ -45,13 +64,13 @@ Remember to have fun and _read all the directions before you start_!
 - Use Axios to consume data from an third party API, and render that data in your components. (Remember, many lists of good API's are listed in the #Resources section.)
 - Use **only** React for DOM Manipulation.
 
-### Styling
+### Styling <!-- omit in toc -->
 
 - Be styled with CSS, either using global style sheets or styled components.
 - Use flexbox (`display: flex`) or CSS Grid.
 - Implement responsive design on 3 screen sizes (including desktop) using 2 media queries (tablet and mobile).
   
-### Linting
+### Linting <!-- omit in toc -->
 
 - Indent properly.
 - Utilize high-quality, semantic variable names.
@@ -59,28 +78,27 @@ Remember to have fun and _read all the directions before you start_!
 - Remove unnecessary boilerplate React files and code.
 - Remove all `console.log()`s and commented out code (functional notes and comments are okay).
 
-### Deployment
+### Deployment <!-- omit in toc -->
 
 - Deployed via Surge or Netlify.
 
-### Procedural
+### Procedural <!-- omit in toc -->
 
 - Commit early and often! Have GitHub commits (documenting substantial progress) **every day**.
 
-### DEALER'S CHOICE
+### Dealer's Choice <!-- omit in toc -->
 
-The final MVP requirement is up to you. You must choose **either**:
+The final MVP requirement is up to you. **You must choose either**:
 
 - Utilize Storybook to create at least 5 reusable components, which are then used in your project; OR
 - Utilize Jest to create at least 15 tests, which are then used in your project.
 
 <br>
 
-## The Post-MVP
+## Post-MVP Ideas
 
 Achieve your MVP with time to spare? Try aiming for some stretch goals. (The following are not mandatory for your second app.)
 
-- Incorporate React component libraries for design and styling. (Instructors must sign off on this.)
 - Get input from a UX student on how to make your app have intuitive UI and design.
 
 <br>
@@ -95,7 +113,7 @@ Finally, to get you familiar with presenting your work to audiences, the last re
 
 # GETTING STARTED
 
-## STEP 1. Remember to Read All Directions BEFORE You Start
+## STEP 1. Read All Directions Before You Start
 
 _We'll know if you don't._
 
@@ -173,7 +191,7 @@ Before you start coding away, you must meet with an instructor to get your ideas
 
 ## STEP 6. Get Hacking
 
-### Remember what project week looks like?
+### Remember what project week looks like? <!-- omit in toc -->
 
 All students will be grouped into a Squad. Every morning and evening, squads will do standups, where each person will answer:
 
@@ -183,20 +201,20 @@ All students will be grouped into a Squad. Every morning and evening, squads wil
 
 After this, we'll go around the squad once more, indicating what "percent MVP" you are at with your project. Remember, the purpose of these check-ins is **not** to discuss technical questions, but to answer questions about workflow and get a status check-in.
 
-### Getting Unstuck
+### Getting Unstuck <!-- omit in toc -->
 
 Remember, two things:
 
 1. Don't hesitate to write messy code to solve short-term problems; you can always refactor later!
 2. Read the documentation for whatever technologies you use! The docs often include a tutorial that can help you get started, and learning to read documentation is crucial to your success as a developer.
 
-### Getting Support
+### Getting Support <!-- omit in toc -->
 
 Each student will be given 5 (five) tokens, redeemable at any time during regular class time (subject to instructors' schedules), for 20 minutes. **Tokens cannot be transferred between students - there is no black market for tokens.**
 
 Instructors will not be holding open office hours during project week. This is to give you the opportunity to solve issues and errors you run in to on your own and with your classmates. Shay, however, will still hold his hours as planned.
 
-#### Maximizing Effectiveness of Support Sessions
+#### Maximizing Effectiveness of Support Sessions <!-- omit in toc -->
 
 Prior to using one of your tokens, we **strongly** recommend that you file an issue ticket on your project's git repository to both provide the instructor with a point of reference regarding your code and the issue you are having. This will enable us to give you more effective guidance.
 
@@ -206,9 +224,9 @@ When you submit an issue ticket, you must use the issue ticket template and incl
 
 <br>
 
-## MOAR RESOURCES
+## RESOURCES
 
-### Some Available APIs
+### Some Tested APIs <!-- omit in toc -->
 
 - Star Wars: https://swapi.co/
 - Weather: https://openweathermap.org/api
@@ -228,18 +246,14 @@ When you submit an issue ticket, you must use the issue ticket template and incl
   - https://github.com/abhishekbanthia/Public-APIs
   - https://rapidapi.com/
 
-### Templates
+### Templates <!-- omit in toc -->
 
 - [Project ReadMe Template](https://github.com/mishakessler/course-template/blob/master/projects/template_frontend-README.md)
 - [Project Issue Ticket Template](https://github.com/mishakessler/course-template/blob/master/projects/template_issue-tickets.md)
 
-### Relevant Guides
-
-- [React Router Training Docs](https://reacttraining.com/react-router/)
-
 <br>
 
-## RECOMMENDATIONS
+# RECOMMENDATIONS
 
 _(From previous survivors of project weeks.)_
 
@@ -255,7 +269,7 @@ _(From previous survivors of project weeks.)_
 
 <br>
 
-## EVALUATION
+# EVALUATION
 
 Your instructors will evaluate your project and determine if it is complete or
 incomplete. We use the following rubric for our evaluation, but ultimately it is
@@ -277,7 +291,7 @@ We will evaluate your project according to the following criteria:
 - **Presentation:** Is there adequate documentation? Is the repository well
   organized and free of clutter?
 
-### Scoring
+### Scoring <!-- omit in toc -->
 
 Each of the above categories will be scored according to the following:
 
@@ -292,7 +306,7 @@ For a project to be considered complete, you must achieve at least "Progressing"
 in each category. However, at a minimum, you should aim to achieve "Performing"
 in every category.
 
-### Hard Requirements
+### Hard Requirements <!-- omit in toc -->
 
 The following requirements **_must_** be met in order for the project to be
 considered complete:
@@ -301,13 +315,13 @@ considered complete:
 - The application renders in the browser and runs without errors
 - The repo has a README that adequately documents the project
 
-### Incomplete Projects
+### Incomplete Projects <!-- omit in toc -->
 
 Incomplete projects will be giving a 1 week extension. **Note that you are
 allowed one extension on only one of the four projects.**
 
 <br>
 
-## PLAGIARISM
+# PLAGIARISM
 
 Remember. We have a **zero tolerance policy** towards plagiarism. More on our plagiarism policy can be found in our course wiki's [plagiarism page](https://github.com/mishakessler/course-template/blob/master/guidelines/Guidelines_Plagiarism.md).
