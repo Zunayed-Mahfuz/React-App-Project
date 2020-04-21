@@ -27,7 +27,7 @@ Remember to have fun and _read all the directions before you start_!
   - [STEP 4. Wireframe Your App](#STEP-4-Wireframe-Your-App)
   - [STEP 5. Pitch Your Project Idea](#STEP-5-Pitch-Your-Project-Idea)
   - [STEP 6. Get Hacking](#STEP-6-Get-Hacking)
-  - [RESOURCES](#RESOURCES)
+- [RESOURCES](#RESOURCES)
 - [RECOMMENDATIONS](#RECOMMENDATIONS)
 - [EVALUATION](#EVALUATION)
 - [PLAGIARISM](#PLAGIARISM)
@@ -234,7 +234,7 @@ When you submit an issue ticket, you must use the issue ticket template and incl
 
 <br>
 
-## RESOURCES
+# RESOURCES
 
 ### Some Tested APIs <!-- omit in toc -->
 
