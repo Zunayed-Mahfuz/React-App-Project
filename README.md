@@ -176,9 +176,11 @@ Before you start coding away, you must meet with an instructor to get your ideas
 6. **MVP:** Your goals for MVP, including the minimum, need-to-have features of your app.
 7. **Post-MVP:** Write out what your goals are for post-MVP, including nice-to-have features that you would like to implement once your MVP is complete. (If you plan to use a component library, please link that here as well.)
 8. **SWOT Analysis:** Heading into project week and with all your planning in mind, consider your Strengths, Weaknesses, Opportunities, and Threats as they relate to your final project. How will you overcome your weaknesses and threats?
-   
-> Optionally, include a final section, your `Code Showcase`. Put snippets you're proud of here, and let your viewers know when you've written brag-worthy code!
 
+> [Project 2 README Template](https://git.generalassemb.ly/sei-nyc-supernovas/class-info/blob/master/projects/project2-README-template.md)
+>
+> Optionally, include a final section, your `Code Showcase`. Put snippets you're proud of here, and let your viewers know when you've written brag-worthy code!
+>
 > For putting wireframes in your ReadMe, we recommend uploading to Imgur, then linking the file directly into your markdown using the `![imageAlt](imageURL)` format. The imageURL must be a direct link ending with the file format, such as `.png`.
 
 <br>
@@ -193,9 +195,13 @@ Before you start coding away, you must meet with an instructor to get your ideas
 
 ## STEP 6. Get Hacking
 
-### Remember what project week looks like? <!-- omit in toc -->
+Yay! Some tips for project week:
 
-All students will be grouped into a Squad. Every morning and evening, squads will do standups, where each person will answer:
+### Deploy Early and Often! <!-- omit in toc -->
+
+### Squad Standups <!-- omit in toc -->
+
+All students will be grouped into a squad. Every morning and evening, squads will do standups, where each person will answer:
 
 1. What did you work on?
 2. What will you work on?
@@ -216,13 +222,15 @@ Each student will be given 5 (five) tokens, redeemable at any time during regula
 
 Instructors will not be holding open office hours during project week. This is to give you the opportunity to solve issues and errors you run in to on your own and with your classmates. Shay, however, will still hold his hours as planned.
 
+(We also strongly recommend using Slack to get help from your classmates. Chances are you all will be running into similar problems!)
+
 #### Maximizing Effectiveness of Support Sessions <!-- omit in toc -->
 
 Prior to using one of your tokens, we **strongly** recommend that you file an issue ticket on your project's git repository to both provide the instructor with a point of reference regarding your code and the issue you are having. This will enable us to give you more effective guidance.
 
-When you submit an issue ticket, you must use the issue ticket template and include all sections.  
+When you submit an issue ticket, you must use the issue ticket template and include all sections.
 
-(We also strongly recommend using Slack to get help from your classmates. Chances are you all will be running into similar problems!)
+> [Project Issue Ticket Template](https://git.generalassemb.ly/sei-nyc-supernovas/class-info/blob/master/projects/issue-ticket-template.md)
 
 <br>
 
@@ -247,11 +255,6 @@ When you submit an issue ticket, you must use the issue ticket template and incl
   - https://github.com/toddmotto/public-apis
   - https://github.com/abhishekbanthia/Public-APIs
   - https://rapidapi.com/
-
-### Templates <!-- omit in toc -->
-
-- [Project ReadMe Template](https://github.com/mishakessler/course-template/blob/master/projects/template_frontend-README.md)
-- [Project Issue Ticket Template](https://github.com/mishakessler/course-template/blob/master/projects/template_issue-tickets.md)
 
 <br>
 
@@ -308,22 +311,12 @@ For a project to be considered complete, you must achieve at least "Progressing"
 in each category. However, at a minimum, you should aim to achieve "Performing"
 in every category.
 
-### Hard Requirements <!-- omit in toc -->
-
-The following requirements **_must_** be met in order for the project to be
-considered complete:
-
-- The project is deployed to GitHub Pages or a custom domain
-- The application renders in the browser and runs without errors
-- The repo has a README that adequately documents the project
-
 ### Incomplete Projects <!-- omit in toc -->
 
-Incomplete projects will be giving a 1 week extension. **Note that you are
-allowed one extension on only one of the four projects.**
+Incomplete projects will be giving a 3 day/weekend extension. **Note that you are allowed only one extension for any project. Use it wisely.**
 
 <br>
 
 # PLAGIARISM
 
-Remember. We have a **zero tolerance policy** towards plagiarism. More on our plagiarism policy can be found in our course wiki's [plagiarism page](https://github.com/mishakessler/course-template/blob/master/guidelines/Guidelines_Plagiarism.md).
+Remember. We have a **zero tolerance policy** towards plagiarism. More on our plagiarism policy can be found in our course wiki's [plagiarism policy page](https://git.generalassemb.ly/sei-nyc-supernovas/class-info/blob/master/policies/plagiarism.md).
