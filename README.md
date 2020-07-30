@@ -63,7 +63,7 @@ This project, like the prior, will be a portfolio piece. For a portfolio piece t
 - Have at least 6 separate, rendered components.
 - Implement an organized and understandable React file structure.
 - Utilize functional and class React components appropriately.
-- Use Axios to consume data from an third party API, and render that data in your components. (Remember, many lists of good API's are listed in the #Resources section.)
+- Use Axios to consume data from Airtable, and render that data in your components.
 - Use **only** React for DOM Manipulation.
 
 ### Styling <!-- omit in toc -->
@@ -130,24 +130,12 @@ You will start by creating your project repository on your **personal** GitHub. 
 
 ## STEP 3. Research and Choose Your API
 
+# NEED TO UPDATE THIS SECTION
+
 You have the freedom to choose an API that aligns with your interests or goals, but remember our requirements from P1.
 
 * Use an API that is public, free, and– if an API key is required– that accepts that key in the URL or header. If it requires membership, granted access, payment, or OAuth, it will likely take too much time to gain access to the data, both to get your keys and to program the requests.
 * Second, you must prove you can retrieve and consume data at project pitch time to be approved. **If you cannot do this, we will tell you to find another API.**
-
-<br>
-
-| **DO**                                                    | **DO NOT**                                  |
-| --------------------------------------------------------- | ------------------------------------------- |
-| ... Have some fun in choosing an API.                     | ... Choose a terrible API.                  |
-| ... Consider the clarity of the API's data structure.     | ... Choose a terrible API.                  |
-| ... Consider the thoroughness of the API's documentation. | ... Seriously, don't choose a terrible API. |
-
-<br>
-
-As you saw for P1, there are _literally_ hundreds, if not thousands, of APIs that have been tested, used and abused by previous students. Start with those lists and it'll make your life easier. 
-
-Refer to the Resources section below for suggestions and lists of available APIs; if you find one not on this list that you'd like to use, feel free, just remember the above requirements. (Did you read this far? If so, we've been sneaky and want you to complete a challenge for us: Make the very first thing in your Project ReadMe for your Pitch a space-themed GIF image. Don't tell your classmates.)
 
 <br>
 
