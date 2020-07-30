@@ -36,11 +36,11 @@ Remember to have fun and _read all the directions before you start_!
 
 # OVERVIEW
 
-> **Pitches Due:** 4/13/20 at 9:00 AM
+> **Pitches Due:** 8/3/20 at 9:00 AM
 >
-> **Deployed MVP Due:** 4/17/20 at 2:00 PM
+> **Deployed MVP Due:** 8/7/20 at 12:00 PM
 > 
-> **Presentations:** 4/20/20 at 3:00 PM
+> **Presentations:** 8/7/20 at 1:30 PM
 >
 > **Starter Code:** No starter code provided.
 
@@ -82,18 +82,11 @@ This project, like the prior, will be a portfolio piece. For a portfolio piece t
 
 ### Deployment <!-- omit in toc -->
 
-- Deployed via Surge or Netlify.
+- Deployed via Netlify.
 
 ### Procedural <!-- omit in toc -->
 
 - Commit early and often! Have GitHub commits (documenting substantial progress) **every day**.
-
-### Dealer's Choice <!-- omit in toc -->
-
-The final MVP requirement is up to you. **You must choose either**:
-
-- Utilize Storybook to create at least 5 reusable components, which are then used in your project; OR
-- Utilize Jest to create at least 15 tests, which are then used in your project.
 
 <br>
 
@@ -231,30 +224,6 @@ Prior to using one of your tokens, we **strongly** recommend that you file an is
 When you submit an issue ticket, you must use the issue ticket template and include all sections.
 
 > [Project Issue Ticket Template](https://git.generalassemb.ly/sei-nyc-supernovas/class-info/blob/master/projects/issue-ticket-template.md)
-
-<br>
-
-# RESOURCES
-
-### Some Tested APIs <!-- omit in toc -->
-
-- Star Wars: https://swapi.co/
-- Weather: https://openweathermap.org/api
-- News: https://newsapi.org/
-- Giphy: https://developers.giphy.com/
-- Pokemon: http://pokeapi.co/
-- Card Deck: https://deckofcardsapi.com/
-- Google Books: https://developers.google.com/books/
-- City of Chicago: https://data.cityofchicago.org/
-- Beer: https://www.brewerydb.com/developers
-- Chuck Norris: http://www.icndb.com/
-- Rick and Morty: https://rickandmortyapi.com/documentation/#rest
-- Word API: https://www.wordsapi.com/
-
-- For comprehensive lists of Public APIs, check the following. (PLEASE NOTE, we do not maintain, review, or recommended all of these APIs. These lists are simply of all publicly available APIs and are maintained by third parties. It's your responsibility to make sure the API fits the project requirements.)
-  - https://github.com/toddmotto/public-apis
-  - https://github.com/abhishekbanthia/Public-APIs
-  - https://rapidapi.com/
 
 <br>
 
