@@ -69,9 +69,9 @@ This project, like the prior, will be a portfolio piece. For a portfolio piece t
 
 ### Styling <!-- omit in toc -->
 
-- Be styled with CSS, either using global style sheets or styled components.
-- Use flexbox (`display: flex`) or CSS Grid.
-- Implement responsive design on 3 screen sizes (including desktop) using 2 media queries (tablet and mobile).
+- Be stlyed, use CSS, Styled Components, CSS-in-JS, or a component library to syle your react project
+- Use flexbox (`display: flex`) or CSS Grid(N/A if using a component library that handles this).
+- Implement responsive design on 3 screen sizes (including desktop) using 2 media queries (tablet and mobile and N/A if using a component library that handles this).
   
 ### Linting <!-- omit in toc -->
 
