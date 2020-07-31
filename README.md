@@ -8,7 +8,7 @@
 
 Congratulations! You're nearly done with Unit 2, which means you've conquered the basics of HTML, CSS, and Javascript, and now we get to kick it up a notch with modular and modern front-end applications using the React framework.
 
-As with P1, the Unit 2 Project is a chance to be creative and build something you can be proud of. You will be working individually on this project, but don't worry– we know stateful versus stateless can be very confusing at first, but don't worry. We'll be helping you out along the way.
+As with P1, the Unit 2 Project is a chance to be creative and build something you can be proud of. You will be working individually on this project and we know that things like "stateful versus stateless" can be very confusing at first, but don't worry. We'll be helping you out along the way.
 
 Remember to have fun and _read all the directions before you start_!
 
@@ -50,7 +50,7 @@ Remember to have fun and _read all the directions before you start_!
 
 **In order to pass, ALL MVP requirements must be met.**
 
-This project, like the prior, will be a portfolio piece. For a portfolio piece to be complete, it **must** demonstrate an understanding of- and an ability to use- the tools and techniques introduced in this unit; it should be functional with sufficient complexity, meeting the following requirements:
+This project, like the one prior, will be a portfolio piece. For a portfolio piece to be complete, it **must** demonstrate an understanding of - and an ability to use - the tools and techniques introduced in this unit; it should be functional with sufficient complexity, meeting the following requirements:
 
 ### Planning <!-- omit in toc -->
 
@@ -58,7 +58,7 @@ This project, like the prior, will be a portfolio piece. For a portfolio piece t
 
 ### React <!-- omit in toc -->
 
-- Be a working, interactice React app, built using `create react app`.
+- Be a working, interactive React app, built using `create react app`.
 - Utilize React Router, installed via NPM. 
 - Have at least 6 separate, rendered components.
 - Implement an organized and understandable React file structure.
@@ -69,8 +69,8 @@ This project, like the prior, will be a portfolio piece. For a portfolio piece t
 
 ### Styling <!-- omit in toc -->
 
-- Be stlyed, use CSS, Styled Components, CSS-in-JS, or a component library to syle your react project
-- Use flexbox (`display: flex`) or CSS Grid(N/A if using a component library that handles this).
+- Be styled, use CSS, Styled Components, CSS-in-JS, or a component library to syle your react project.
+- Use flexbox (`display: flex`) or CSS Grid (N/A if using a component library that handles this).
 - Implement responsive design on 3 screen sizes (including desktop) using 2 media queries (tablet and mobile and N/A if using a component library that handles this).
   
 ### Linting <!-- omit in toc -->
@@ -196,7 +196,7 @@ Remember, two things:
 
 Each student will be given 5 (five) tokens, redeemable at any time during regular class time (subject to instructors' schedules), for 20 minutes. **Tokens cannot be transferred between students - there is no black market for tokens.**
 
-Instructors will not be holding open office hours during project week. This is to give you the opportunity to solve issues and errors you run in to on your own and with your classmates. Shay, however, will still hold his hours as planned.
+Instructors will not be holding open office hours during project week. This is to give you the opportunity to solve issues and errors you run in to on your own and with your classmates. Soleil, however, will still hold her hours as planned.
 
 (We also strongly recommend using Slack to get help from your classmates. Chances are you all will be running into similar problems!)
 
@@ -265,10 +265,10 @@ in every category.
 
 ### Incomplete Projects <!-- omit in toc -->
 
-Incomplete projects will be giving a 3 day/weekend extension. **Note that you are allowed only one extension for any project. Use it wisely.**
+Incomplete projects will be given a 3 day/weekend extension. **Note that you are allowed only one extension for any project. Use it wisely.**
 
 <br>
 
 # PLAGIARISM
 
-Remember. We have a **zero tolerance policy** towards plagiarism. More on our plagiarism policy can be found in our course wiki's [plagiarism policy page](https://git.generalassemb.ly/sei-nyc-supernovas/class-info/blob/master/policies/plagiarism.md).
+Remember, we have a **zero tolerance policy** towards plagiarism. More on our plagiarism policy can be found in our course wiki's [plagiarism policy page](https://git.generalassemb.ly/sei-nyc-supernovas/class-info/blob/master/policies/plagiarism.md).
