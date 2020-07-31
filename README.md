@@ -23,10 +23,9 @@ Remember to have fun and _read all the directions before you start_!
 - [GETTING STARTED](#GETTING-STARTED)
   - [STEP 1. Read All Directions Before You Start](#STEP-1-Read-All-Directions-Before-You-Start)
   - [STEP 2. Make A New Repo](#STEP-2-Make-A-New-Repo)
-  - [STEP 3. Research and Choose Your API](#STEP-3-Research-and-Choose-Your-API)
-  - [STEP 4. Wireframe Your App](#STEP-4-Wireframe-Your-App)
-  - [STEP 5. Pitch Your Project Idea](#STEP-5-Pitch-Your-Project-Idea)
-  - [STEP 6. Get Hacking](#STEP-6-Get-Hacking)
+  - [STEP 3. Wireframe Your App](#STEP-4-Wireframe-Your-App)
+  - [STEP 4. Pitch Your Project Idea](#STEP-5-Pitch-Your-Project-Idea)
+  - [STEP 5. Get Hacking](#STEP-6-Get-Hacking)
 - [RESOURCES](#RESOURCES)
 - [RECOMMENDATIONS](#RECOMMENDATIONS)
 - [EVALUATION](#EVALUATION)
@@ -63,7 +62,8 @@ This project, like the prior, will be a portfolio piece. For a portfolio piece t
 - Have at least 6 separate, rendered components.
 - Implement an organized and understandable React file structure.
 - Utilize functional and class React components appropriately.
-- Use Axios to consume data from Airtable, and render that data in your components.
+- Use Axios to consume data from Airtable, and GET/render that data in your components.
+- Use Axios to POST/create new data on Airtable.
 - Use **only** React for DOM Manipulation.
 
 ### Styling <!-- omit in toc -->
@@ -126,18 +126,12 @@ You will start by creating your project repository on your **personal** GitHub. 
 | ... Make a new repo through GitHub. | ... Clone this SEI repo.           |
 | ... Make the new repo public.       | ... Initialize with a ReadMe file. |
 
-<br>
-
-## STEP 3. Research and Choose Your API
-
-# NEED TO UPDATE THIS SECTION
-
-You have the freedom to choose an API that aligns with your interests or goals, but remember our requirements from P1.
-
-* Use an API that is public, free, and– if an API key is required– that accepts that key in the URL or header. If it requires membership, granted access, payment, or OAuth, it will likely take too much time to gain access to the data, both to get your keys and to program the requests.
-* Second, you must prove you can retrieve and consume data at project pitch time to be approved. **If you cannot do this, we will tell you to find another API.**
 
 <br>
+
+## Step 3. Setup your Airtable
+
+The sky is the limit here, even though in class, we only went over the basic use cases of Airtable, you now can have full CRUD functionality with your application. You have the building blocks of every Database dependent website in the world! (ie... Facebook, AirB&B, MySpace!, Twitter)While you may not have User Authentication yet, you still can build something powerful and useful! BE CREATIVE!
 
 ## STEP 4. Wireframe Your App
 
@@ -153,7 +147,7 @@ Before you start coding away, you must meet with an instructor to get your ideas
 2. **Description:** 4 to 5 sentences in non-technical speak summarizing the features, functions, and goals.
 3. **Wireframes:** Mockups of your app on desktop, tablet, and mobile.
 4. **Component Heirarchy:** A visual tree of your components, depicting the parent/child relationships, as well as an indication of which will be class components, requiring state, and which will be functional components, taking props.
-5. **API:** The API you will be using and a link to the documentation.
+5. **API:** How you will be using Airtable to handle your data.
 6. **MVP:** Your goals for MVP, including the minimum, need-to-have features of your app.
 7. **Post-MVP:** Write out what your goals are for post-MVP, including nice-to-have features that you would like to implement once your MVP is complete. (If you plan to use a component library, please link that here as well.)
 8. **SWOT Analysis:** Heading into project week and with all your planning in mind, consider your Strengths, Weaknesses, Opportunities, and Threats as they relate to your final project. How will you overcome your weaknesses and threats?
