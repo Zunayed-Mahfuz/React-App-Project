@@ -132,7 +132,7 @@ src
 
 |  Function  | Description                                |
 | :--------: | :----------------------------------------- |
-| capitalize | Capitalizes (e.g. - vendor names) |
+| capitalize | Capitalizes (e.g. - Listings names) |
 | generate properties listing | Generates listings |
 
 <br>
