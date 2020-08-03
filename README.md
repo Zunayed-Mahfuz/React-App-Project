@@ -1,39 +1,4 @@
-Skip to content
- Enterprise
-Search or jump to…
-
-Pull requests
-Issues
-Explore
- 
-@zmahfuz061318 
-sei-nyc-supernovas
-/
-class-info
-2
-0
-31
- Code
- Issues 0
- Pull requests 0
- Projects 0
- Wiki
- Insights
-You’re editing a file in a project you don’t have write access to. We’ve created a fork of this project for you to commit your proposed changes to. Submitting a change to this file will write it to a new branch in your fork, so you can send a pull request.
-class-info
-/
-projects
-/
-project2-README-template.md
- 
-
-Spaces
-
-2
-
-Soft wrap
-1
-# PROJECT 2 README <!-- omit in toc -->
+# Real estate Listing <!-- omit in toc -->
 2
 ​
 3
