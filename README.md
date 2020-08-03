@@ -1,4 +1,4 @@
-# Vendor Connector - readme
+# Aashiyaan vacation Rentals - readme
 
 - [Project Planning](#Project-Planning)
   - [Overview](#Overview)
@@ -24,7 +24,7 @@
 
 ### Overview
 
-**Vendor Connector** is an easy-to-use app whereby a person who is considering a wedding vendor can connect with people who have already used that vendor. They can hopefullly then gain more insight and make a more informed decision on whether on not to use them on their special day.
+//
 
 <br>
 
@@ -33,36 +33,25 @@
 
 #### Desktop
 
-- [Desktop landing](https://wireframe.cc/FooNMC)
+- [Desktop landing](https://wireframe.cc/pro/pp/603308272363460)
 
-- [Create Reviews](https://wireframe.cc/6Dlx53)
+- [Create Listing](https://wireframe.cc/pro/pp/603308272363460)
 
-- [Read Reviews](https://wireframe.cc/XL2QiL)
-
-- [Browse Reviews](https://wireframe.cc/1ecskb)
-
-#### Mobile
-
-- [Mobile landing](https://wireframe.cc/9Uf1yg)
-
-#### Tablet
-
-- [Tablet landing](https://wireframe.cc/E2Srqb)
+- [Rentals](https://wireframe.cc/pro/pp/603308272363460)
 
 <br>
 
 ### MVP
 
-The **Vendor Connector**'s goal is simple: connect someone planning an event to those who have done it already: make them more informed about who they choose as vendors.
+Aashiyaan vacation Rental's goal is to provide people with easy access to list their houses or apartments like Aibnb as vacation rental place as well as other users can also rent using this app.
 
 <br>
 
 #### Goals
 
 A user should be able to:
-- Create a review for each of their vendors
-- Be able to browse vendor reviews
-- Be able to connect with the person who made the review
+- Create a lisitng of their new properties for people to rent from them.
+- Be able to browse different listings and see their descriptions.
 
 <br>
 
@@ -71,7 +60,7 @@ A user should be able to:
 |     Library      | Description                                |
 | :--------------: | :----------------------------------------- |
 |   React Router   | Allows for different paths for components
-|  Axios  |  Makes requests for Airtable data  |
+|   Axios  |  Makes requests for Airtable data  |
 
 <br>
 
@@ -80,7 +69,7 @@ A user should be able to:
 
 |    API     | Quality Docs? | Website       | Sample Query                            |
 | :--------: | :-----------: | :------------ | :-------------------------------------- |
-| Airtable |      Yes      | airtable.com | https://api.airtable.com/v0/appGtN1jraBuzwFTz/Table%201 |
+| Airtable |      Yes      | airtable.com | https://api.airtable.com/v0/appQ5OD0NipfBhQT6/Properties/recyIknXa7br2lzVt |
 
 <br>
 
@@ -89,15 +78,21 @@ A user should be able to:
 
 ```
 src
-|__ assets/
-      |__ fonts
+|__ components/
+      |__ Banner.js
+      |__ Featuredlisting.js
+      |__ Banner.js
+      |__ Navbar.js
+      |__ Marketplace.js
+      |__ Title.js
       |__ images
-|__ App.js
-|__ Header.js
-|__ Form.js
-|__ SelectVendor.js
-|__ DisplayVendor.js
-|__ Browse.js
+      |__ FeaturedListing.js
+|__ pages/
+      |__ Error.js (will show 404 if the listing is not there)
+      |__ Home.js
+      |__ Rentals.js (will show listings of the newly added properties)
+      |__ SingleRoom.js (will show the description of individual listing)
+      
 ```
 
 <br>
@@ -107,12 +102,10 @@ src
 
 |  Component   |    Type    | state | props | Description                                                      |
 | :----------: | :--------: | :---: | :---: | :--------------------------------------------------------------- |
-|   App    | functional |   n   |   n   | Backbone of the site - landing/navigation               |
-|    Header    | functional |   n   |   n   | Site brand / links               |
-|  Form  | functional |   y   |   n   | What the user must input to create reviews       |
-|   SelectVendor    |   functional    |   y   |   n   | Pick what vendors to research further      |
-| DisplayVendor | functional |   n   |   y   | Display selected vendor's reviews                 |
-|    Browse    | functional |   n   |   y   | Browse all reviews |
+|   App    | functional |   n   |   n   |  Landing/navigation navbar              |
+|    Header    | functional |   n   |   n   | Site brand / links to navigate to other pages              |
+|  Nvigate to listings  | functional |   y   |   n   | Add listings and update listings       |
+|   Featured listings    |   functional    |   y   |   n   | Click on featured listings to see descriptions.      |
 
 <br>
 
@@ -128,7 +121,7 @@ src
 | Advanced CSS | L | 10 hrs | 0 hrs | TBD |
 | Responsive Design | H | 8 hrs | 0 hrs | TBD |
 | Update listings | L | 2 hr | 0 hrs | TBD |
-| TOTAL               |          |     36 hrs      |     0 hrs     |     TBD     |
+| TOTAL               |          |     31 hrs      |     0 hrs     |     TBD     |
 
 (* Denotes Post-MVP)
 
@@ -140,7 +133,7 @@ src
 |  Function  | Description                                |
 | :--------: | :----------------------------------------- |
 | capitalize | Capitalizes (e.g. - vendor names) |
-| generateProperties | Generates listings |
+| generate properties listing | Generates listings |
 
 <br>
 
