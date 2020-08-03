@@ -43,7 +43,7 @@ Aashiyaan Homes can be used on both desktop and as well as on mobile device. Use
 
 ### MVP
 
-Aashiyaan vacation Rental's goal is to provide people with easy access to list their houses or apartments like Aibnb as vacation rental place as well as other users can also rent using this app.
+Aashiyaan vacation Rental's goal is to provide people with easy access to list their houses or apartments like Airbnb as vacation rental place as well as other users can also rent using this app.
 
 <br>
 
