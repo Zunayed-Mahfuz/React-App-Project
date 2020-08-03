@@ -1,4 +1,4 @@
-# REAL ESTATE LISTING PROJECT <!-- omit in toc -->
+# Vendor Connector - readme
 
 - [Project Planning](#Project-Planning)
   - [Overview](#Overview)
@@ -16,157 +16,144 @@
   - [Code Showcase](#Code-Showcase)
   - [Code Issues & Resolutions](#Code-Issues--Resolutions)
 
-## Project Planning
+<br>
 
-> The Project Planning section should be completed for your project pitch with instructors.
->
-> To ensure correct Markdown, I recommend cloning this wiki and copy/pasting the raw template code.
+## Project Planning
 
 <br>
 
 ### Overview
 
-_**Project Title** is lorem ipsum dolor sit amet. Phasellus dapibus fermentum risus vitae bibendum. Integer vel ipsum mollis odio sollicitudin ornare eu vel ex. In quis fringilla velit, ac maximus quam. Etiam eget placerat neque. Aenean faucibus sem non nisi lobortis ullamcorper._
+**Vendor Connector** is an easy-to-use app whereby a person who is considering a wedding vendor can connect with people who have already used that vendor. They can hopefullly then gain more insight and make a more informed decision on whether on not to use them on their special day.
 
 <br>
 
-### Wireframes
+### Wireframes:
 
-> Use the Wireframes section to display desktop, tablet and mobile views.
 
-![Dummy Link](url)
+#### Desktop
 
-- Desktop Landing
+- [Desktop landing](https://wireframe.cc/FooNMC)
 
-![Dummy Link](url)
+- [Create Reviews](https://wireframe.cc/6Dlx53)
 
-- Desktop Body
+- [Read Reviews](https://wireframe.cc/XL2QiL)
 
-![Dummy Link](url)
+- [Browse Reviews](https://wireframe.cc/1ecskb)
 
-- Desktop Resource Index
+#### Mobile
 
-![Dummy Link](url)
+- [Mobile landing](https://wireframe.cc/9Uf1yg)
 
-- Desktop Resource Show
+#### Tablet
 
-![Dummy Link](url)
-
-- Tablet Resource Index
-
-![Dummy Link](url)
-
-- Mobile Resource Index
+- [Tablet landing](https://wireframe.cc/E2Srqb)
 
 <br>
 
 ### MVP
 
-> The Minimum Viable Product should be a well-planned and easily-communicated product, ensuring that the client's deliverable will be achievable and meet specifications within the time frame estimated.
-
-_The **Project Title** MVP lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus dapibus fermentum risus vitae bibendum. Integer vel ipsum mollis odio sollicitudin ornare eu vel ex. In quis fringilla velit, ac maximus quam. Etiam eget placerat neque. Aenean faucibus sem non nisi lobortis ullamcorper._
+The **Vendor Connector**'s goal is simple: connect someone planning an event to those who have done it already: make them more informed about who they choose as vendors.
 
 <br>
 
 #### Goals
 
-- _Lorem ipsum, dolor sit amet,_
-- _consectetur adipiscing elit._
-- _Phasellus dapibus fermentum risus vitae bibendum._
-- _Integer vel ipsum mollis odio sollicitudin ornare eu vel ex._
-- _etc._
+A user should be able to:
+- Create a review for each of their vendors
+- Be able to browse vendor reviews
+- Be able to connect with the person who made the review
 
 <br>
 
 #### Libraries
 
-> Use this section to list all supporting libraries and their role in the project.
-
 |     Library      | Description                                |
 | :--------------: | :----------------------------------------- |
-|   React Router   | _Lorem ipsum dolor sit amet, consectetur._ |
-| React SemanticUI | _Lorem ipsum dolor sit amet, consectetur._ |
-|   React Spring   | _Lorem ipsum dolor sit amet, consectetur._ |
+|   React Router   | Allows for different paths for components
+|  Axios  |  Makes requests for Airtable data  |
 
 <br>
 
 #### Data
 
-> Use the Data Section to define the API(s) you will be consuming for your project, inluding sample URL queries.
 
 |    API     | Quality Docs? | Website       | Sample Query                            |
 | :--------: | :-----------: | :------------ | :-------------------------------------- |
-| WeatherAPI |      yes      | _example.com_ | _example.com/mickeymouse?s=movies&t=10_ |
+| Airtable |      Yes      | airtable.com | https://api.airtable.com/v0/appGtN1jraBuzwFTz/Table%201 |
 
 <br>
 
 #### Component Hierarchy
 
-> Use this section to define your React components and the data architecture of your app.
 
 ```
 src
 |__ assets/
-      |__ data-tests
       |__ fonts
-      |__ graphics
       |__ images
-      |__ mockups
-|__ components/
-      |__ Header.jsx
-      |__ Hero.jsx
-      |__ Ipsum.jsx
-      |__ Lorem.jsx
-      |__ CTA.jsx
-      |__ Footer.jsx
+|__ App.js
+|__ Header.js
+|__ Form.js
+|__ SelectVendor.js
+|__ DisplayVendor.js
+|__ Browse.js
 ```
 
 <br>
 
 #### Component Breakdown
 
-> Use this section to go into further depth regarding your components, including breaking down the components as stateless or stateful, and considering the passing of data between those components.
 
 |  Component   |    Type    | state | props | Description                                                      |
 | :----------: | :--------: | :---: | :---: | :--------------------------------------------------------------- |
-|    Header    | functional |   n   |   n   | _The header will contain the navigation and logo._               |
-|  Navigation  | functional |   n   |   n   | _The navigation will provide a link to each of the pages._       |
-|   Gallery    |   class    |   y   |   n   | _The gallery will render the posts using cards in flexbox._      |
-| Gallery Card | functional |   n   |   y   | _The cards will render the post info via props._                 |
-|    Footer    | functional |   n   |   n   | _The footer will show info about me and a link to my portfolio._ |
+|   App    | functional |   n   |   n   | Backbone of the site - landing/navigation               |
+|    Header    | functional |   n   |   n   | Site brand / links               |
+|  Form  | functional |   y   |   n   | What the user must input to create reviews       |
+|   SelectVendor    |   functional    |   y   |   n   | Pick what vendors to research further      |
+| DisplayVendor | functional |   n   |   y   | Display selected vendor's reviews                 |
+|    Browse    | functional |   n   |   y   | Browse all reviews |
 
 <br>
 
 #### Component Estimates
 
-> Use this section to estimate the time necessary to build out each of the components you've described above. 
->
-> Time frames are key to the development cycle. You have limited time to code your app, and your estimates can then be used to evalute possibilities of your MVP and post-MVP based on time needed. It's best you assume an additional hour for each component, as well as a few hours added to the total time, to play it safe.
 
 | Task                | Priority | Estimated Time | Time Invested | Actual Time |
 | ------------------- | :------: | :------------: | :-----------: | :---------: |
-| Add Contact Form    |    L     |     3 hrs      |     2 hrs     |    3 hrs    |
-| Create CRUD Actions |    H     |     3 hrs      |     1 hrs     |     TBD     |
-| TOTAL               |          |     6 hrs      |     3 hrs     |     TBD     |
+| Basic HTML     |    L     |     1 hrs      |     0 hrs     |    TBD    |
+| Basic CSS | L | 4 hrs | 0 hrs | TBD |
+| Create CRUD Actions |    H     |     4 hrs      |     0 hrs     |     TBD     |
+| Display listings to browse from airtable | H | 2 hr | 0 hrs | TBD |
+| Advanced CSS | L | 10 hrs | 0 hrs | TBD |
+| Responsive Design | H | 8 hrs | 0 hrs | TBD |
+| Update listings | L | 2 hr | 0 hrs | TBD |
+| TOTAL               |          |     36 hrs      |     0 hrs     |     TBD     |
+
+(* Denotes Post-MVP)
 
 <br>
 
 #### Helper Functions
 
-> Use this section to document all helper functions– generic functions that can be reused in other applications.
 
 |  Function  | Description                                |
 | :--------: | :----------------------------------------- |
-| Capitalize | _Lorem ipsum dolor sit amet, consectetur._ |
+| capitalize | Capitalizes (e.g. - vendor names) |
+| generateProperties | Generates listings |
 
 <br>
 
 ### Post-MVP
 
-> Use this section to document ideas you've had that would be fun (or necessary) for your Post-MVP. This will be helpful when you return to your project after graduation!
 
-- _Add user account and auth capabilities._
-- _Utilize the Giphy API to welcome new users with funny gifs._
+It would be nice if the user would be able to:
+- Add their listings on the site directly from their database.
+- View multilpe cities and locations where they can upload their listings.
+- Potential clients can make earnings from their listing from using this app.
+- Add trackers of their lisitngs where they can track how much they made from their listings.
+
+
 
 <br>
 
@@ -176,8 +163,8 @@ src
 
 ### Code Showcase
 
-> Use this section to include a brief code snippet of functionality that you are proud of and a brief description.
+> Looking forward to shpw my code snippet of the project that I am proud of.
 
 ### Code Issues & Resolutions
 
-> Use this section to list of all major issues encountered and their resolution, if you'd like.
+> I will use this section to list of all major issues that I encountered and what steps I can take to improve.
