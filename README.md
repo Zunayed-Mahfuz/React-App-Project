@@ -24,7 +24,7 @@
 
 ### Overview
 
-//
+Aashiyaan Homes can be used on both desktop and as well as on mobile device. Users can use this to rent as well as list their properties on this app. Anyone can use their own data to create listings and show the descriptions of their properties and can rent it using this app.
 
 <br>
 
@@ -104,7 +104,7 @@ src
 | :----------: | :--------: | :---: | :---: | :--------------------------------------------------------------- |
 |   App    | functional |   n   |   n   |  Landing/navigation navbar              |
 |    Header    | functional |   n   |   n   | Site brand / links to navigate to other pages              |
-|  Nvigate to listings  | functional |   y   |   n   | Add listings and update listings       |
+|  Navigate to listings  | functional |   y   |   n   | Add listings and update listings       |
 |   Featured listings    |   functional    |   y   |   n   | Click on featured listings to see descriptions.      |
 
 <br>
@@ -156,7 +156,7 @@ It would be nice if the user would be able to:
 
 ### Code Showcase
 
-> Looking forward to shpw my code snippet of the project that I am proud of.
+> Looking forward to show my code snippet of the project that I am proud of.
 
 ### Code Issues & Resolutions
 
